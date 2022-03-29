@@ -1,0 +1,13 @@
+.dishesWrapper{
+    text-align: center;
+    color: white;
+}
+.imageHolder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.progressImg{
+    height: 300px;
+    border-radius: 20px ;
+}

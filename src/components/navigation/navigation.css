@@ -1,0 +1,38 @@
+.NavigationWrapper{
+    height: 7vh;
+    width: 100%;
+    background-color: #090a0e;
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+}
+
+.navItems{
+   
+    display: flex;
+    width: 100%;
+}
+.navItem{
+    height: 50px;
+    width: 120px;
+    background-color: rgba(0, 0, 0, .2);
+    border: 1px solid #5ea7ea;
+    color: #5ea7ea;
+    border-radius: 5px;
+    margin-left: 20px;
+    outline: none;
+}
+
+.navItem .active {
+    background-color: rgba(94, 167, 234, .4);
+}
+
+.navItem:hover {
+    background-color: rgba(94, 167, 234, .4);
+}
+
+.logo{
+    width: 40px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
