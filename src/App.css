@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+
+
+body{
+  font-family: 'Yesteryear', cursive;
+}
 .App{
-  background-color: #171920;
+  background-color: #153D40;
+  padding: 25px;
 }

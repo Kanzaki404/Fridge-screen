@@ -1,38 +1,31 @@
 .NavigationWrapper{
     height: 7vh;
     width: 100%;
-    background-color: #090a0e;
+    background-color: #38686B;
     display: flex;
     align-items: center;
-    border-radius: 0 0 15px 15px;
+    font-size: 2rem;
+   
 }
 
-.navItems{
-   
-    display: flex;
-    width: 100%;
-}
+
 .navItem{
-    height: 50px;
-    width: 120px;
-    background-color: rgba(0, 0, 0, .2);
-    border: 1px solid #5ea7ea;
-    color: #5ea7ea;
-    border-radius: 5px;
-    margin-left: 20px;
-    outline: none;
+    color: white;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .navItem .active {
-    background-color: rgba(94, 167, 234, .4);
+    /* background-color: rgba(94, 167, 234, .4); */
 }
 
 .navItem:hover {
-    background-color: rgba(94, 167, 234, .4);
+    background-color: #FAEBC9;
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 2px;
 }
 
-.logo{
-    width: 40px;
-    margin-left: 20px;
-    margin-right: 30px;
-}
