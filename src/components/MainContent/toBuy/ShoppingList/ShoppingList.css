@@ -1,0 +1,14 @@
+.shoppingListWrapper{
+    border-bottom: 1px solid black;
+    height: 70px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-size: 1.5em;
+}
+
+
+.del{
+    color: red;
+    
+}

@@ -5,3 +5,8 @@
     padding: 30px;
     box-sizing: border-box;
 }
+
+.scrollSupper{
+    max-height: 60vh;
+    overflow-y: scroll;
+}

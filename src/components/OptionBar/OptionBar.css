@@ -1,1 +1,24 @@
-.optionBarWrapper{}
+.optionBarWrapper{ 
+   
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2em;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.addItem{
+    display: flex;
+    align-items: center;
+    
+}
+.plusSign{
+    font-size: 2em;
+    margin-right: 15px;
+}
+
+.ClearItem{
+    color: #AE1414;
+}

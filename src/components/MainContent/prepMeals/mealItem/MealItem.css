@@ -1,0 +1,16 @@
+.mealItemWrapper{
+    border-bottom: 1px solid black;
+    font-size: 1.5em;
+    margin-bottom: 70px;
+}
+
+
+.outOfStock{
+    text-align: end;
+    height: 45px;
+    color: #AE1414;
+}
+.supperInfo{
+    display: flex;
+    justify-content: space-between;
+}

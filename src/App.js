@@ -1,6 +1,6 @@
 
 import './App.css';
-import {useState} from 'react'
+import {useState,useEffect} from 'react'
 import Navigation from './components/navigation/navigation';
 import MainContent from './components/MainContent/MainContent';
 
@@ -8,6 +8,7 @@ function App() {
   const [currentSection, setCurrentSection] = useState(1)
   //take out later
 
+ 
   const navOptions = [
     {
       id: 1,
@@ -20,7 +21,7 @@ function App() {
   ]
   return (
     <div className="App">
-      <Navigation navOptions={navOptions} setCurrentSection={setCurrentSection}/>
+      <Navigation navOptions={navOptions} setCurrentSection={setCurrentSection} currentSection={currentSection}/>
      
       <MainContent currentSection={currentSection}/>
      
