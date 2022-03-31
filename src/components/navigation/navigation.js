@@ -1,7 +1,6 @@
 import "./navigation.css";
 
 const Navigation = ({ navOptions,setCurrentSection, currentSection}) => {
-  console.log(navOptions);
   
   const navItems = navOptions.map((e) => {
      
